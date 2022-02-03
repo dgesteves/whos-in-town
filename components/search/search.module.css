@@ -1,0 +1,16 @@
+.search {
+    width: var(--size-40);
+    height: var(--size-8);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 2px solid var(--color-turquoise-100);
+    font-size: var(--size-4);
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .search {
+        width: var(--size-50);
+        height: var(--size-10);
+    }
+}

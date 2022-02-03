@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    justify-content: center;
+    margin: var(--size-8) var(--size-4);
+}
+
+.button {
+    transition: all 0.3s 0s ease-in-out;
+    background-color: var(--color-turquoise-100);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid var(--color-turquoise-100);
+}
+
+.button:hover,
+.button:active {
+    background-color: var(--color-turquoise-500);
+    border: 2px solid var(--color-turquoise-500);
+}

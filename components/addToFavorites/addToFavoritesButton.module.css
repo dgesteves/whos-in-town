@@ -1,0 +1,14 @@
+.button {
+    background-color: var(--color-turquoise-100);
+    color: var(--color-grey-800);
+    border-radius: 5px;
+    border:2px solid var(--color-turquoise-100);
+    padding: 5px
+
+}
+
+.button:hover {
+    background-color: var(--color-turquoise-500);
+    border-color: var(--color-turquoise-500);
+    transition: all 0.3s 0s ease-in-out;
+}

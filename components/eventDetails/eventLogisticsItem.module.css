@@ -1,0 +1,24 @@
+.item {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #aefff8;
+}
+
+.item span {
+    display: block;
+}
+
+.item a {
+    text-decoration: none;
+    color:var(--color-error-500)
+}
+
+@media (min-width: 768px) {
+    .item {
+        align-items: flex-start;
+        text-align: left;
+    }
+}

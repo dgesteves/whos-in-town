@@ -1,0 +1,16 @@
+.content {
+    font-size: 1.5rem;
+    color: var(--color-grey-50);
+    width: 90%;
+    max-width: 40em;
+    margin: 8rem auto auto;
+    text-align: center;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content h3 {
+    color: var(--color-turquoise-100);
+}

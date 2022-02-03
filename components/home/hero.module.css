@@ -1,0 +1,32 @@
+.hero {
+    text-align: center;
+    background-image: url("/images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: var(--size-8) 0;
+}
+
+.hero h1 {
+    font-size: var(--size-8);
+    margin: var(--size-4) var(--size-6);
+    color: var(--color-grey-50);
+}
+
+.hero p {
+    font-size: var(--size-4);
+    color: var(--color-grey-50);
+    width: 90%;
+    max-width: 40rem;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: var(--size-16);
+    }
+
+    .hero p {
+        font-size: var(--size-6);
+    }
+}
